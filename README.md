@@ -39,6 +39,7 @@ A video is just a series of images shown frame by frame:
 <img src="https://imgur.com/a9qbzVb.png">
 
 Combined, these frames create the illusion of motion:
+
 <img src="https://imgur.com/ZRirD4e.gif">
 
 OpenCV handles the videos, and MediaPipe detects and generates landmarks. These landmarks are used to train the model and detect actions.
