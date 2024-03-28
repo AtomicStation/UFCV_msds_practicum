@@ -36,6 +36,7 @@ This project imports the following libraries:
 ## Usage
 
 A video is just a series of images shown frame by frame:
+
 <img src="https://imgur.com/a9qbzVb.png">
 
 Combined, these frames create the illusion of motion:
@@ -43,30 +44,39 @@ Combined, these frames create the illusion of motion:
 <img src="https://imgur.com/ZRirD4e.gif">
 
 OpenCV handles the videos, and MediaPipe detects and generates landmarks. These landmarks are used to train the model and detect actions.
+
 <img src="https://imgur.com/N89Ib63.png">
 
 This project uses the Pose library from MediaPipe, with the following landmarks:
+
 <img src="https://imgur.com/gCGDZx0.png">
 
 Currently, training is done by using OpenCV and MediaPipe to generate categorized actions. Each action is a series of 30 frames.
-<img src="https://imgur.com/qMsLSDZ.png">
+
+<img src="https://imgur.com/sv4dBQ7.png">
 
 For example, the "hold" action could have frames that look like these:
+
 <img src="https://imgur.com/vOvkI04.png">
 
 And the "swing" action could have frames that look like these:
+
 <img src="https://imgur.com/e7PJVDa.png">
 
 Each action has 30 sets of 30 frames
+
 <img src="https://imgur.com/0jOBKas.png">
 
 Each frame is transformed into an array using MediaPipe landmarks
+
 <img src="https://imgur.com/pyUn0io.png">
 
 ### Ideas for future implementations.
 
 Instead of training the model with a specific video, any video can be used with a specific frame identifying the "hold" action:
+
 <img src="https://imgur.com/tuM6Ana.png">
+
 <img src="https://imgur.com/YqSWBfY.png">
 
 ## Credits
