@@ -4,6 +4,8 @@
 
 A lot of current, popular fitness modalities deal with movements that are either up and down (squats, deadlifts) or front and back (bench press). Not a lot of exercises deal with side to side movements. The steel mace is an offset weight on a long handle, which allows for unique opportunities. Steel mace training provides enhanced grip strength, improved core strength and stabilization, increased range of motion, better shoulder health, and fun!
 
+<img src="https://imgur.com/ZRirD4e.gif">
+
 The offset nature of the weight means that momentum is used during the swings. The "float" means that the steel mace swing can also be used to train strength-endurance. Endurance activities like running have technologies that utilize GPS tracking and time, which results in accurate metrics for assessing training volume. For steel mace swings, time and swing repetitions are required for volume (swings per minute, swings per hour, etc). However, for long sessions, keeping track of swing repetitions becomes nearly impossible.
 
 This project was designed with this problem in mind: using computer vision techniques to count reps for steel mace swings.
@@ -47,6 +49,12 @@ Currently, training is done by using OpenCV and MediaPipe to generate categorize
 
 Each action has 30 sets of 30 frames
 <img src="https://imgur.com/0jOBKas.png">
+
+For example, the "hold" action could have frames that look like this:
+<img src="https://imgur.com/vOvkI04.png">
+
+And the "swing" action could have frames that look like these:
+<img src="https://imgur.com/e7PJVDa.png">
 
 Each frame is transformed into an array using MediaPipe landmarks
 <img src="https://imgur.com/pyUn0io.png">
