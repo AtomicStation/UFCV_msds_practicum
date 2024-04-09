@@ -70,6 +70,10 @@ Each frame is transformed into an array using MediaPipe landmarks
 
 ### Ideas for future implementations.
 
+Creating an app using Kivy so that this application can be used anywhere.
+
+<img src="https://imgur.com/s6QhM2q.png">
+
 Instead of training the model with a specific video, any video can be used with a specific frame identifying the "hold" action:
 
 <img src="https://imgur.com/tuM6Ana.png">
