@@ -72,8 +72,11 @@ Each frame is transformed into an array using MediaPipe landmarks
 
 Creating an app using Kivy so that this application can be used anywhere.
 
-<img src="https://imgur.com/s6QhM2q.png">
+<img src="https://imgur.com/csXSED8.png">
 
+Once that is out of the way and the app can be used and tested in the field, then other features and user stories can be addressed.
+
+For example, one user story is to address the training program:
 Instead of training the model with a specific video, any video can be used with a specific frame identifying the "hold" action:
 
 <img src="https://imgur.com/tuM6Ana.png">
